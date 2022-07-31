@@ -1,5 +1,4 @@
 # ML-WAF-against-injection-attacks
-# ML-WAF-against-injection-attacks
 In this project I'm trying to create machine learning WAF against injection attacks:
 
 1. Classical SQL-injections (in-band): error-based and union-based.
