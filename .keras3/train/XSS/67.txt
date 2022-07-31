@@ -1,0 +1,1 @@
+<object onkeydown="alert(1)" contenteditable>test</object>

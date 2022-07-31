@@ -1,0 +1,1 @@
+<script onclick="alert(1)">test</script>

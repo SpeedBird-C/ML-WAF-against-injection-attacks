@@ -1,0 +1,1 @@
+<isindex onmousewheel=alert(1)>requires scrolling

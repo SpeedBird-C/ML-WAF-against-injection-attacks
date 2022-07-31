@@ -1,0 +1,1 @@
+<ruby onfocusout=alert(1) tabindex=1 id=x></ruby><input autofocus>

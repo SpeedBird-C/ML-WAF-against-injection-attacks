@@ -1,0 +1,1 @@
+<video oncontextmenu="alert(1)">test</video>

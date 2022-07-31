@@ -1,0 +1,1 @@
+/*!FrOm*/+information_schema./**/columns+/*!50000Where*/+/*!table_name*/=hex table

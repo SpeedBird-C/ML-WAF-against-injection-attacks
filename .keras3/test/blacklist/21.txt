@@ -1,0 +1,1 @@
+group_concat(0x223e,@@version,0x3c696d67207372633d22)

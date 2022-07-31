@@ -1,0 +1,1 @@
+<style>:target {color:red;}</style><track id=x style="transition:color 1s" ontransitionend=alert(1)></track>

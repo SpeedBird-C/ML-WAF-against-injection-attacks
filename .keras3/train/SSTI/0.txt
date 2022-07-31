@@ -1,0 +1,1 @@
+{{global_name.__class__.__base__}}

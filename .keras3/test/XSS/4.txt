@@ -1,0 +1,1 @@
+<img srcset=validimage.png onload=alert(1)>

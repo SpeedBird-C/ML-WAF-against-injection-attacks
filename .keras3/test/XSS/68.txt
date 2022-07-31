@@ -1,0 +1,1 @@
+<object ondblclick="alert(1)" autofocus tabindex=1>test</object>

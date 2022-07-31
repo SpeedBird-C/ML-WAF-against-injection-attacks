@@ -1,0 +1,1 @@
+<script onblur=alert(1) tabindex=1 id=x></script><input autofocus>

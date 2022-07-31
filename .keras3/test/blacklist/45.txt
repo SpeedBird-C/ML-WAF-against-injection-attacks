@@ -1,0 +1,1 @@
+unhex(hex(Concat(Column_Name,0x3e,Table_schema,0x3e,table_Name)))

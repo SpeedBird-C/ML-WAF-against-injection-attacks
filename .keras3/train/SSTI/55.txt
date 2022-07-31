@@ -1,0 +1,1 @@
+{{get_flashed_messages.__class__.__mro__[1].__subclasses__()}}

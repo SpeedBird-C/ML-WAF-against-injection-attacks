@@ -1,0 +1,1 @@
+<img onmousemove="alert(1)">test</img>

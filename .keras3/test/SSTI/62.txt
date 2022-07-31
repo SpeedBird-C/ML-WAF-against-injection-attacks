@@ -1,0 +1,1 @@
+{{request|attr([request.args.usc*2,request.args.class,request.args.usc*2]|join)}}

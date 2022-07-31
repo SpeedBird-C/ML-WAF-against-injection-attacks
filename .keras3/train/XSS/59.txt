@@ -1,0 +1,1 @@
+<style>@keyframes x{}</style><main style="animation-name:x" onanimationstart="alert(1)"></main>

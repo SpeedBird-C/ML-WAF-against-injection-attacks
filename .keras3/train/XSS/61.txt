@@ -1,0 +1,1 @@
+<main onfocusout=alert(1) tabindex=1 id=x></main><input autofocus>

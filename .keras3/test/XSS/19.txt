@@ -1,0 +1,1 @@
+<video onclick="alert(1)">test</video>

