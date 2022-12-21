@@ -35,20 +35,4 @@ And some graphics:
 3. Commented out graphic for cheking if model is overfitting or underfitting (underfit_or_overfit func)
 4. Precision-recall curves with it's best threshold
 
-Examples for creating datasets:
-
-SSTI - https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Server%20Side%20Template%20Injection
-
-XSS - https://portswigger.net/web-security/cross-site-scripting/cheat-sheet
-
-Benign traffic - https://www.kaggle.com/code/syedsaqlainhussain/sql-injection-dectection-using-neural-network/notebook
-
-Blacklist - https://owasp.org/www-community/attacks/SQL_Injection_Bypassing_WAF
-
-SQL-injections (in-band) - https://www.kaggle.com/code/syedsaqlainhussain/sql-injection-dectection-using-neural-network/data
-
-SQL-injections (blind) - https://www.kaggle.com/datasets/sajid576/sql-injection-dataset?select=Modified_SQL_Dataset.csv
-
-Directory traversal - https://github.com/omurugur/Path_Travelsal_Payload_List/blob/master/Payload/Deep-Travelsal.txt
-
 Video-demo - https://youtu.be/mOANuc6V80U 
